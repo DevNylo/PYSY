@@ -1,37 +1,31 @@
+from socket import RDS_RDMA_DONTWAIT
 from turtle import left
 import pyautogui
 import time
 
 pyautogui.moveTo(470, 95) # X
 pyautogui.click(button='left') # CLOSE CAD
-time.sleep(8)
+time.sleep(10)
 pyautogui.moveTo(100, 545) # MOVE TO SELECT "PROCEDÊNCIA"
 pyautogui.click(button='left') # CLICK
 time.sleep(1)
 pyautogui.press('r')
 pyautogui.press('r')
-pyautogui.moveTo(188, 505)
-pyautogui.click(button='left')
 time.sleep(1)
-pyautogui.moveTo(105, 601) # MOVE TO "PROFISSIONAL RESPONSÁVEL"
-time.sleep(1)
-pyautogui.click(button='left')
-time.sleep(2)
-pyautogui.press('esc') # CLOSE LOCATION
-time.sleep(1)
+# MOVE TO "PROFISSIONAL RESPONSÁVEL"
+# CLOSE LOCATION
 #--------------------------------------------------
 #--------------------------------------------------
 #--------------------------------------------------
 #--------------------------------------------------
-pyautogui.write('29157875') # PHYSIOTHERAPIST JOLINDA
+# PHYSIOTHERAPIST JOLINDA
 #--------------------------------------------------
 #--------------------------------------------------
 #--------------------------------------------------
 #--------------------------------------------------
-time.sleep(1)
 pyautogui.moveTo(722, 776) # MOVE TO SAVE
 pyautogui.click(button='left') # SAVE
-time.sleep(7)
+time.sleep(8)
 pyautogui.moveTo(927, 362) # MOVE TO "SETORES"
 pyautogui.click(button='left') # SELECT "SETOR"
 time.sleep(2)
