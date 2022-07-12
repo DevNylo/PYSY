@@ -1,11 +1,11 @@
-from socket import RDS_RDMA_DONTWAIT
+
 from turtle import left
 import pyautogui
 import time
 
 pyautogui.moveTo(470, 95) # X
 pyautogui.click(button='left') # CLOSE CAD
-time.sleep(10)
+time.sleep(12)
 pyautogui.moveTo(100, 545) # MOVE TO SELECT "PROCEDÊNCIA"
 pyautogui.click(button='left') # CLICK
 time.sleep(1)
