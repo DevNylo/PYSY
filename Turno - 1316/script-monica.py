@@ -4,7 +4,7 @@ import time
 
 pyautogui.moveTo(470, 95) # X
 pyautogui.click(button='left') # CLOSE CAD
-time.sleep(8)
+time.sleep(10)
 pyautogui.moveTo(100, 545) # MOVE TO SELECT "PROCEDÊNCIA"
 pyautogui.click(button='left') # CLICK
 time.sleep(1)
@@ -23,7 +23,7 @@ time.sleep(1)
 #--------------------------------------------------
 #--------------------------------------------------
 #--------------------------------------------------
-pyautogui.write('11578413') # PHYSIOTHERAPIST CARLOS
+pyautogui.write('11576593') # PHYSIOTHERAPIST MONICA
 #--------------------------------------------------
 #--------------------------------------------------
 #--------------------------------------------------
@@ -31,7 +31,7 @@ pyautogui.write('11578413') # PHYSIOTHERAPIST CARLOS
 time.sleep(1)
 pyautogui.moveTo(722, 776) # MOVE TO SAVE
 pyautogui.click(button='left') # SAVE
-time.sleep(7)
+time.sleep(9)
 pyautogui.moveTo(927, 362) # MOVE TO "SETORES"
 pyautogui.click(button='left') # SELECT "SETOR"
 time.sleep(2)
