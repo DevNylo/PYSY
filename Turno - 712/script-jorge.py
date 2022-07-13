@@ -31,10 +31,10 @@ pyautogui.write('11597357') # PHYSIOTHERAPIST JORGE
 time.sleep(1)
 pyautogui.moveTo(722, 776) # MOVE TO SAVE
 pyautogui.click(button='left') # SAVE
-time.sleep(8)
+time.sleep(6)
 pyautogui.moveTo(927, 362) # MOVE TO "SETORES"
 pyautogui.click(button='left') # SELECT "SETOR"
-time.sleep(2)
+time.sleep(1)
 pyautogui.press('r')
 time.sleep(1)
 pyautogui.press('r')
@@ -44,7 +44,7 @@ time.sleep(1)
 pyautogui.press('tab')
 pyautogui.press('tab')
 pyautogui.press('tab')
-time.sleep(3)
+time.sleep(1)
 pyautogui.moveTo(1521, 782) # MOVE TO SAVE
 pyautogui.click(button='left') # SAVE
 time.sleep(3)
@@ -64,6 +64,7 @@ pyautogui.click(button='left') # LIBERAR
 pyautogui.moveTo(929, 541)
 time.sleep(2)
 pyautogui.click(button='left') # END
+
 
 
 

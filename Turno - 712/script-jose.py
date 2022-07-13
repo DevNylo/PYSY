@@ -4,8 +4,8 @@ import time
 
 pyautogui.moveTo(470, 95) # X
 pyautogui.click(button='left') # CLOSE CAD
-time.sleep(8)
-pyautogui.moveTo(100, 545) # MOVE TO SELECT "PROCEDÊNCIA"
+time.sleep(5)
+pyautogui.moveTo(100, 545, 5) # MOVE TO SELECT "PROCEDÊNCIA"
 pyautogui.click(button='left') # CLICK
 time.sleep(1)
 pyautogui.press('r')
