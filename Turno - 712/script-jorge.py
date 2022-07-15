@@ -12,7 +12,6 @@ pyautogui.press('r')
 pyautogui.press('r')
 pyautogui.moveTo(188, 505)
 pyautogui.click(button='left')
-time.sleep(1)
 pyautogui.moveTo(105, 601) # MOVE TO "PROFISSIONAL RESPONSÁVEL"
 time.sleep(1)
 pyautogui.click(button='left')
