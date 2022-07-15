@@ -36,15 +36,12 @@ pyautogui.moveTo(927, 362) # MOVE TO "SETORES"
 pyautogui.click(button='left') # SELECT "SETOR"
 time.sleep(2)
 pyautogui.press('r')
-time.sleep(1)
 pyautogui.press('r')
 time.sleep(1)
-pyautogui.moveTo(1107, 316)
-time.sleep(1)
 pyautogui.press('tab')
 pyautogui.press('tab')
 pyautogui.press('tab')
-time.sleep(3)
+time.sleep(2)
 pyautogui.moveTo(1521, 782) # MOVE TO SAVE
 pyautogui.click(button='left') # SAVE
 time.sleep(3)

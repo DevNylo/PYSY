@@ -5,7 +5,7 @@ import time
 
 pyautogui.moveTo(470, 95) # X
 pyautogui.click(button='left') # CLOSE CAD
-time.sleep(10)
+time.sleep(8)
 pyautogui.moveTo(100, 545) # MOVE TO SELECT "PROCEDÊNCIA"
 pyautogui.click(button='left') # CLICK
 time.sleep(1)
@@ -21,10 +21,7 @@ pyautogui.moveTo(927, 362) # MOVE TO "SETORES"
 pyautogui.click(button='left') # SELECT "SETOR"
 time.sleep(2)
 pyautogui.press('r')
-time.sleep(1)
 pyautogui.press('r')
-time.sleep(1)
-pyautogui.moveTo(1107, 316)
 time.sleep(1)
 pyautogui.press('tab')
 pyautogui.press('tab')
