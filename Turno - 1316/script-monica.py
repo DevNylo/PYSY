@@ -5,14 +5,6 @@ import time
 pyautogui.moveTo(470, 95) # X
 pyautogui.click(button='left') # CLOSE CAD
 time.sleep(8)
-pyautogui.moveTo(100, 545) # MOVE TO SELECT "PROCEDÊNCIA"
-pyautogui.click(button='left') # CLICK
-time.sleep(1)
-pyautogui.press('r')
-pyautogui.press('r')
-pyautogui.moveTo(188, 505)
-pyautogui.click(button='left')
-time.sleep(1)
 pyautogui.moveTo(105, 601) # MOVE TO "PROFISSIONAL RESPONSÁVEL"
 time.sleep(1)
 pyautogui.click(button='left')
@@ -32,12 +24,6 @@ time.sleep(1)
 pyautogui.moveTo(722, 776) # MOVE TO SAVE
 pyautogui.click(button='left') # SAVE
 time.sleep(7)
-pyautogui.moveTo(927, 362) # MOVE TO "SETORES"
-pyautogui.click(button='left') # SELECT "SETOR"
-time.sleep(2)
-pyautogui.press('r')
-pyautogui.press('r')
-time.sleep(1)
 pyautogui.press('tab')
 pyautogui.press('tab')
 pyautogui.press('tab')
