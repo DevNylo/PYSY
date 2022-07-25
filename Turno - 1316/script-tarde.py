@@ -10,7 +10,7 @@ pyautogui.moveTo(722, 776) # MOVE TO SAVE
 pyautogui.click(button='left') # SAVE
 time.sleep(1)
 pyautogui.click(button='left')
-time.sleep(6)
+time.sleep(5)
 pyautogui.press('r')
 pyautogui.press('r')
 time.sleep(1)
