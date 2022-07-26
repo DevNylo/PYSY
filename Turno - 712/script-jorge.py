@@ -23,7 +23,7 @@ pyautogui.write('11597357') # PHYSIOTHERAPIST JORGE
 time.sleep(1)
 pyautogui.moveTo(722, 776) # MOVE TO SAVE
 pyautogui.click(button='left') # SAVE
-time.sleep(8)
+time.sleep(10)
 pyautogui.press('tab')
 pyautogui.press('tab')
 pyautogui.press('tab')
