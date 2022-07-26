@@ -24,7 +24,7 @@ pyautogui.write('11597139') # PHYSIOTHERAPIST MILENA
 time.sleep(1)
 pyautogui.moveTo(722, 776) # MOVE TO SAVE
 pyautogui.click(button='left') # SAVE
-time.sleep(7)
+time.sleep(10)
 pyautogui.moveTo(927, 362) # MOVE TO "SETORES"
 pyautogui.click(button='left') # SELECT "SETOR"
 time.sleep(2)
