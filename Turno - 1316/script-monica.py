@@ -4,7 +4,7 @@ import time
 
 pyautogui.moveTo(470, 95) # X
 pyautogui.click(button='left') # CLOSE CAD
-time.sleep(8)
+time.sleep(9)
 pyautogui.moveTo(105, 601) # MOVE TO "PROFISSIONAL RESPONSÁVEL"
 time.sleep(1)
 pyautogui.click(button='left')
@@ -32,7 +32,9 @@ pyautogui.moveTo(1521, 782) # MOVE TO SAVE
 pyautogui.click(button='left') # SAVE
 time.sleep(3)
 pyautogui.moveTo(692, 258) # RELATORIO
+time.sleep(0.5)
 pyautogui.click(button='left')
+time.sleep(0.5)
 pyautogui.moveTo(712, 319)
 time.sleep(1)
 pyautogui.click(button='left') #IMPRIMIR
